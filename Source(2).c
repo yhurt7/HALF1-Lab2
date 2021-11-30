@@ -88,12 +88,12 @@ int main()
 
   printf("Main menu:\n");
   printf("\n");
-  printf("Печать [1]\n");
-  printf("Сортировка пузырёк [2]\n");
-  printf("Быстрая сортировка [3]\n");
-  printf("Сортировка вставкой [4]\n");
-  printf("Выход [5]\n\n");
-  printf("Ввод: ");
+  printf("ГЏГҐГ·Г ГІГј [1]\n");
+  printf("Г‘Г®Г°ГІГЁГ°Г®ГўГЄГ  ГЇГіГ§Г»Г°ВёГЄ [2]\n");
+  printf("ГЃГ»Г±ГІГ°Г Гї Г±Г®Г°ГІГЁГ°Г®ГўГЄГ  [3]\n");
+  printf("Г‘Г®Г°ГІГЁГ°Г®ГўГЄГ  ГўГ±ГІГ ГўГЄГ®Г© [4]\n");
+  printf("Г‚Г»ГµГ®Г¤ [5]\n\n");
+  printf("Г‚ГўГ®Г¤: ");
   scanf_s("%d", &choice);
 
   switch (choice)
@@ -115,7 +115,7 @@ int main()
     }
     unsigned int end1 = clock();
     unsigned int search1 = end1 - start1;
-    printf("\nВремя работы: %u мс\n", search1);
+    printf("\nГ‚Г°ГҐГ¬Гї Г°Г ГЎГ®ГІГ»: %u Г¬Г±\n", search1);
     break;
   case 3:
     printf("\n");
@@ -127,7 +127,7 @@ int main()
     }
     unsigned int end2 = clock();
     unsigned int search2 = end2 - start2;
-    printf("\n\nВремя работы: %u мс\n", search2);
+    printf("\n\nГ‚Г°ГҐГ¬Гї Г°Г ГЎГ®ГІГ»: %u Г¬Г±\n", search2);
     break;
   case 4:
     printf("\n");
@@ -139,7 +139,7 @@ int main()
     }
     unsigned int end3 = clock();
     unsigned int search3 = end3 - start3;
-    printf("\n\nВремя работы: %u мс\n", search3);
+    printf("\n\nГ‚Г°ГҐГ¬Гї Г°Г ГЎГ®ГІГ»: %u Г¬Г±\n", search3);
     break;
   case 5:
     free(mas);
